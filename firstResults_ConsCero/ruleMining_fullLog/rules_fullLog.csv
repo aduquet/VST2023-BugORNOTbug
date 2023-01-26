@@ -1,0 +1,133 @@
+,LHS,LHS_size,RHS,RHS_size,conf,sup,lift,cov
+0,"('MR4 == Violated', 'sum')",2,"('MR1 == No-violated',)",1,1.0,0.46,1.0,0.0
+1,"('MR2 == No-violated', 'MR3 == Violated', 'MR4 == Violated', 'sub')",4,"('MR1 == No-violated',)",1,1.0,0.46,1.0,0.0
+2,"('MR1 == No-violated', 'MR3 == Violated', 'MR4 == Violated', 'sub')",4,"('MR2 == No-violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+3,"('MR1 == No-violated', 'MR2 == No-violated', 'MR4 == Violated', 'sub')",4,"('MR3 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+4,"('MR2 == No-violated', 'MR4 == Violated')",2,"('MR1 == No-violated', 'MR3 == Violated')",2,1.0,0.92,1.0869565217391304,79999999.99999996
+5,"('MR2 == No-violated', 'MR3 == Violated')",2,"('MR1 == No-violated', 'MR4 == Violated')",2,1.0,0.92,1.0869565217391304,79999999.99999996
+6,"('MR1 == No-violated', 'MR4 == Violated')",2,"('MR2 == No-violated', 'MR3 == Violated')",2,1.0,0.92,1.0869565217391304,79999999.99999996
+7,"('MR4 == Violated',)",1,"('MR1 == No-violated',)",1,1.0,0.92,1.0,0.0
+8,"('MR2 == No-violated',)",1,"('MR1 == No-violated', 'MR3 == Violated', 'MR4 == Violated')",3,1.0,0.92,1.0869565217391304,79999999.99999996
+9,"('MR1 == No-violated', 'MR2 == No-violated', 'MR3 == Violated', 'sub')",4,"('MR4 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+10,"('MR3 == Violated', 'MR4 == Violated', 'sub')",3,"('MR1 == No-violated', 'MR2 == No-violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+11,"('MR3 == Violated',)",1,"('MR2 == No-violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+12,"('MR1 == No-violated', 'MR3 == Violated')",2,"('MR2 == No-violated', 'MR4 == Violated')",2,1.0,0.92,1.0869565217391304,79999999.99999996
+13,"('MR1 == No-violated', 'MR2 == No-violated')",2,"('MR3 == Violated', 'MR4 == Violated')",2,1.0,0.92,1.0869565217391304,79999999.99999996
+14,"('MR4 == Violated',)",1,"('MR1 == No-violated', 'MR2 == No-violated', 'MR3 == Violated')",3,1.0,0.92,1.0869565217391304,79999999.99999996
+15,"('MR3 == Violated',)",1,"('MR1 == No-violated', 'MR2 == No-violated', 'MR4 == Violated')",3,1.0,0.92,1.0869565217391304,79999999.99999996
+16,"('MR2 == No-violated',)",1,"('MR3 == Violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+17,"('MR2 == No-violated', 'MR3 == Violated', 'MR4 == Violated')",3,"('MR1 == No-violated',)",1,1.0,0.92,1.0,0.0
+18,"('MR1 == No-violated', 'MR3 == Violated', 'MR4 == Violated')",3,"('MR2 == No-violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+19,"('MR1 == No-violated', 'MR2 == No-violated', 'MR4 == Violated')",3,"('MR3 == Violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+20,"('MR1 == No-violated', 'MR2 == No-violated', 'MR3 == Violated')",3,"('MR4 == Violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+21,"('MR3 == Violated', 'MR4 == Violated')",2,"('MR1 == No-violated', 'MR2 == No-violated')",2,1.0,0.92,1.0869565217391304,79999999.99999996
+22,"('MR2 == No-violated', 'MR3 == Violated', 'MR4 == Violated', 'sum')",4,"('MR1 == No-violated',)",1,1.0,0.46,1.0,0.0
+23,"('MR4 == Violated', 'sum')",2,"('MR3 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+24,"('MR3 == Violated', 'sum')",2,"('MR4 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+25,"('MR1 == No-violated', 'MR3 == Violated', 'MR4 == Violated', 'sum')",4,"('MR2 == No-violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+26,"('MR1 == No-violated', 'MR2 == No-violated', 'MR4 == Violated', 'sum')",4,"('MR3 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+27,"('MR1 == No-violated', 'MR2 == No-violated', 'MR3 == Violated', 'sum')",4,"('MR4 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+28,"('MR3 == Violated', 'MR4 == Violated', 'sum')",3,"('MR1 == No-violated', 'MR2 == No-violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+29,"('MR2 == No-violated', 'MR4 == Violated', 'sum')",3,"('MR1 == No-violated',)",1,1.0,0.46,1.0,0.0
+30,"('MR1 == No-violated', 'MR4 == Violated', 'sum')",3,"('MR2 == No-violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+31,"('MR1 == No-violated', 'MR2 == No-violated', 'sum')",3,"('MR4 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+32,"('MR4 == Violated', 'sum')",2,"('MR1 == No-violated', 'MR2 == No-violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+33,"('MR2 == No-violated', 'sum')",2,"('MR1 == No-violated', 'MR4 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+34,"('MR3 == Violated', 'MR4 == Violated', 'sum')",3,"('MR2 == No-violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+35,"('MR2 == No-violated', 'MR4 == Violated', 'sum')",3,"('MR3 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+36,"('MR2 == No-violated', 'MR3 == Violated', 'sum')",3,"('MR4 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+37,"('MR4 == Violated', 'sum')",2,"('MR2 == No-violated', 'MR3 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+38,"('MR3 == Violated', 'sum')",2,"('MR2 == No-violated', 'MR4 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+39,"('MR2 == No-violated', 'sum')",2,"('MR3 == Violated', 'MR4 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+40,"('MR4 == Violated', 'sub')",2,"('MR3 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+41,"('MR3 == Violated', 'sub')",2,"('MR4 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+42,"('MR3 == Violated', 'sum')",2,"('MR2 == No-violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+43,"('MR2 == No-violated', 'sum')",2,"('MR3 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+44,"('MR4 == Violated',)",1,"('MR3 == Violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+45,"('MR3 == Violated',)",1,"('MR4 == Violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+46,"('MR3 == Violated', 'MR4 == Violated', 'sub')",3,"('MR1 == No-violated',)",1,1.0,0.46,1.0,0.0
+47,"('MR1 == No-violated', 'MR4 == Violated', 'sub')",3,"('MR3 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+48,"('MR1 == No-violated', 'MR3 == Violated', 'sub')",3,"('MR4 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+49,"('MR2 == No-violated', 'MR3 == Violated', 'sum')",3,"('MR1 == No-violated',)",1,1.0,0.46,1.0,0.0
+50,"('MR1 == No-violated', 'MR3 == Violated', 'sum')",3,"('MR2 == No-violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+51,"('MR1 == No-violated', 'MR2 == No-violated', 'sum')",3,"('MR3 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+52,"('MR3 == Violated', 'sum')",2,"('MR1 == No-violated', 'MR2 == No-violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+53,"('MR2 == No-violated', 'sum')",2,"('MR1 == No-violated', 'MR3 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+54,"('MR4 == Violated', 'sub')",2,"('MR1 == No-violated', 'MR3 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+55,"('MR3 == Violated', 'sub')",2,"('MR1 == No-violated', 'MR4 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+56,"('MR2 == No-violated', 'MR4 == Violated')",2,"('MR1 == No-violated',)",1,1.0,0.92,1.0,0.0
+57,"('MR1 == No-violated', 'MR4 == Violated')",2,"('MR2 == No-violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+58,"('MR1 == No-violated', 'MR2 == No-violated')",2,"('MR4 == Violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+59,"('MR4 == Violated',)",1,"('MR1 == No-violated', 'MR2 == No-violated')",2,1.0,0.92,1.0869565217391304,79999999.99999996
+60,"('MR2 == No-violated',)",1,"('MR1 == No-violated', 'MR4 == Violated')",2,1.0,0.92,1.0869565217391304,79999999.99999996
+61,"('MR1 == No-violated', 'MR3 == Violated')",2,"('MR2 == No-violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+62,"('MR1 == No-violated', 'MR2 == No-violated')",2,"('MR3 == Violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+63,"('MR3 == Violated',)",1,"('MR1 == No-violated', 'MR2 == No-violated')",2,1.0,0.92,1.0869565217391304,79999999.99999996
+64,"('MR2 == No-violated',)",1,"('MR1 == No-violated', 'MR3 == Violated')",2,1.0,0.92,1.0869565217391304,79999999.99999996
+65,"('MR2 == No-violated', 'MR3 == Violated')",2,"('MR1 == No-violated',)",1,1.0,0.92,1.0,0.0
+66,"('MR4 == Violated',)",1,"('MR2 == No-violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+67,"('MR2 == No-violated',)",1,"('MR4 == Violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+68,"('MR4 == Violated', 'sum')",2,"('MR2 == No-violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+69,"('MR2 == No-violated', 'sum')",2,"('MR4 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+70,"('MR3 == Violated', 'sum')",2,"('MR1 == No-violated',)",1,1.0,0.46,1.0,0.0
+71,"('MR2 == No-violated', 'sub')",2,"('MR1 == No-violated',)",1,1.0,0.46,1.0,0.0
+72,"('MR2 == No-violated', 'MR3 == Violated', 'sub')",3,"('MR1 == No-violated',)",1,1.0,0.46,1.0,0.0
+73,"('MR1 == No-violated', 'MR3 == Violated', 'sub')",3,"('MR2 == No-violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+74,"('MR1 == No-violated', 'MR2 == No-violated', 'sub')",3,"('MR3 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+75,"('MR3 == Violated', 'sub')",2,"('MR1 == No-violated', 'MR2 == No-violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+76,"('MR2 == No-violated', 'sub')",2,"('MR1 == No-violated', 'MR3 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+77,"('MR2 == No-violated', 'sum')",2,"('MR1 == No-violated',)",1,1.0,0.46,1.0,0.0
+78,"('sum',)",1,"('MR1 == No-violated',)",1,1.0,0.5,1.0,0.0
+79,"('MR2 == No-violated', 'MR4 == Violated', 'sub')",3,"('MR1 == No-violated', 'MR3 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+80,"('MR2 == No-violated', 'MR3 == Violated', 'sub')",3,"('MR1 == No-violated', 'MR4 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+81,"('MR1 == No-violated', 'MR4 == Violated', 'sub')",3,"('MR2 == No-violated', 'MR3 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+82,"('MR1 == No-violated', 'MR3 == Violated', 'sub')",3,"('MR2 == No-violated', 'MR4 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+83,"('MR3 == Violated',)",1,"('MR1 == No-violated',)",1,1.0,0.92,1.0,0.0
+84,"('MR1 == No-violated', 'MR2 == No-violated', 'sub')",3,"('MR3 == Violated', 'MR4 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+85,"('MR4 == Violated', 'sub')",2,"('MR1 == No-violated', 'MR2 == No-violated', 'MR3 == Violated')",3,1.0,0.46,1.0869565217391304,79999999.99999996
+86,"('MR3 == Violated', 'sub')",2,"('MR1 == No-violated', 'MR2 == No-violated', 'MR4 == Violated')",3,1.0,0.46,1.0869565217391304,79999999.99999996
+87,"('MR2 == No-violated', 'sub')",2,"('MR1 == No-violated', 'MR3 == Violated', 'MR4 == Violated')",3,1.0,0.46,1.0869565217391304,79999999.99999996
+88,"('MR3 == Violated', 'MR4 == Violated')",2,"('MR2 == No-violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+89,"('MR2 == No-violated', 'MR4 == Violated')",2,"('MR3 == Violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+90,"('MR2 == No-violated', 'MR3 == Violated')",2,"('MR4 == Violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+91,"('MR4 == Violated',)",1,"('MR2 == No-violated', 'MR3 == Violated')",2,1.0,0.92,1.0869565217391304,79999999.99999996
+92,"('MR3 == Violated',)",1,"('MR2 == No-violated', 'MR4 == Violated')",2,1.0,0.92,1.0869565217391304,79999999.99999996
+93,"('MR2 == No-violated',)",1,"('MR3 == Violated', 'MR4 == Violated')",2,1.0,0.92,1.0869565217391304,79999999.99999996
+94,"('MR3 == Violated', 'MR4 == Violated', 'sum')",3,"('MR1 == No-violated',)",1,1.0,0.46,1.0,0.0
+95,"('MR1 == No-violated', 'MR4 == Violated', 'sum')",3,"('MR3 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+96,"('MR1 == No-violated', 'MR3 == Violated', 'sum')",3,"('MR4 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+97,"('MR4 == Violated', 'sum')",2,"('MR1 == No-violated', 'MR3 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+98,"('MR3 == Violated', 'sum')",2,"('MR1 == No-violated', 'MR4 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+99,"('sub',)",1,"('MR1 == No-violated',)",1,1.0,0.5,1.0,0.0
+100,"('MR4 == Violated', 'sub')",2,"('MR1 == No-violated',)",1,1.0,0.46,1.0,0.0
+101,"('MR4 == Violated', 'sub')",2,"('MR2 == No-violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+102,"('MR2 == No-violated', 'sub')",2,"('MR4 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+103,"('MR3 == Violated', 'MR4 == Violated', 'sub')",3,"('MR2 == No-violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+104,"('MR2 == No-violated', 'MR4 == Violated', 'sub')",3,"('MR3 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+105,"('MR2 == No-violated', 'MR3 == Violated', 'sub')",3,"('MR4 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+106,"('MR4 == Violated', 'sub')",2,"('MR2 == No-violated', 'MR3 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+107,"('MR3 == Violated', 'sub')",2,"('MR2 == No-violated', 'MR4 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+108,"('MR2 == No-violated', 'sub')",2,"('MR3 == Violated', 'MR4 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+109,"('MR3 == Violated', 'sub')",2,"('MR1 == No-violated',)",1,1.0,0.46,1.0,0.0
+110,"('MR3 == Violated', 'MR4 == Violated')",2,"('MR1 == No-violated',)",1,1.0,0.92,1.0,0.0
+111,"('MR1 == No-violated', 'MR4 == Violated')",2,"('MR3 == Violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+112,"('MR1 == No-violated', 'MR3 == Violated')",2,"('MR4 == Violated',)",1,1.0,0.92,1.0869565217391304,79999999.99999996
+113,"('MR4 == Violated',)",1,"('MR1 == No-violated', 'MR3 == Violated')",2,1.0,0.92,1.0869565217391304,79999999.99999996
+114,"('MR3 == Violated',)",1,"('MR1 == No-violated', 'MR4 == Violated')",2,1.0,0.92,1.0869565217391304,79999999.99999996
+115,"('MR2 == No-violated',)",1,"('MR1 == No-violated',)",1,1.0,0.92,1.0,0.0
+116,"('MR3 == Violated', 'sub')",2,"('MR2 == No-violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+117,"('MR2 == No-violated', 'sub')",2,"('MR3 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+118,"('MR2 == No-violated', 'MR4 == Violated', 'sum')",3,"('MR1 == No-violated', 'MR3 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+119,"('MR2 == No-violated', 'MR3 == Violated', 'sum')",3,"('MR1 == No-violated', 'MR4 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+120,"('MR2_input_b==0',)",1,"('MR1 == No-violated',)",1,1.0,0.2,1.0,0.0
+121,"('MR1 == No-violated', 'MR4 == Violated', 'sum')",3,"('MR2 == No-violated', 'MR3 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+122,"('MR1 == No-violated', 'MR3 == Violated', 'sum')",3,"('MR2 == No-violated', 'MR4 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+123,"('MR1 == No-violated', 'MR2 == No-violated', 'sum')",3,"('MR3 == Violated', 'MR4 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+124,"('MR4 == Violated', 'sum')",2,"('MR1 == No-violated', 'MR2 == No-violated', 'MR3 == Violated')",3,1.0,0.46,1.0869565217391304,79999999.99999996
+125,"('MR3 == Violated', 'sum')",2,"('MR1 == No-violated', 'MR2 == No-violated', 'MR4 == Violated')",3,1.0,0.46,1.0869565217391304,79999999.99999996
+126,"('MR2 == No-violated', 'sum')",2,"('MR1 == No-violated', 'MR3 == Violated', 'MR4 == Violated')",3,1.0,0.46,1.0869565217391304,79999999.99999996
+127,"('MR2 == No-violated', 'MR4 == Violated', 'sub')",3,"('MR1 == No-violated',)",1,1.0,0.46,1.0,0.0
+128,"('MR1 == No-violated', 'MR4 == Violated', 'sub')",3,"('MR2 == No-violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+129,"('MR1 == No-violated', 'MR2 == No-violated', 'sub')",3,"('MR4 == Violated',)",1,1.0,0.46,1.0869565217391304,79999999.99999996
+130,"('MR4 == Violated', 'sub')",2,"('MR1 == No-violated', 'MR2 == No-violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996
+131,"('MR2 == No-violated', 'sub')",2,"('MR1 == No-violated', 'MR4 == Violated')",2,1.0,0.46,1.0869565217391304,79999999.99999996

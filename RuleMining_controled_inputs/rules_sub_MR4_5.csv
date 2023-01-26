@@ -1,0 +1,182 @@
+,LHS,LHS_size,RHS,RHS_size,conf,sup,lift,cov
+0,"('input_a == 3',)",1,"('MR4_input_a == -3.0',)",1,1.0,0.1,10.0,900000000.0
+1,"('MR4_input_a == -3.0',)",1,"('input_a == 3',)",1,1.0,0.1,10.0,900000000.0
+2,"('MR4_input_b == -2.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+3,"('MR4_input_a == 3.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+4,"('input_b == 7',)",1,"('MR4_input_b == 1.0',)",1,1.0,0.1,10.0,900000000.0
+5,"('input_a == 7',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+6,"('MR4_input_b == 1.0',)",1,"('input_b == 7',)",1,1.0,0.1,10.0,900000000.0
+7,"('MR4_input_a == 3.0', 'input_a == 9')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+8,"('MR4_checker == No-violated', 'input_a == 9')",2,"('MR4_input_a == 3.0',)",1,1.0,0.1,10.0,900000000.0
+9,"('MR4_checker == No-violated', 'MR4_input_a == 3.0')",2,"('input_a == 9',)",1,1.0,0.1,10.0,900000000.0
+10,"('input_a == 9',)",1,"('MR4_checker == No-violated', 'MR4_input_a == 3.0')",2,1.0,0.1,10.0,900000000.0
+11,"('MR4_input_a == 3.0',)",1,"('MR4_checker == No-violated', 'input_a == 9')",2,1.0,0.1,10.0,900000000.0
+12,"('MR4_input_a == 0.0', 'input_a == 6')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+13,"('MR4_checker == No-violated', 'input_a == 6')",2,"('MR4_input_a == 0.0',)",1,1.0,0.1,10.0,900000000.0
+14,"('MR4_checker == No-violated', 'MR4_input_a == 0.0')",2,"('input_a == 6',)",1,1.0,0.1,10.0,900000000.0
+15,"('input_a == 6',)",1,"('MR4_checker == No-violated', 'MR4_input_a == 0.0')",2,1.0,0.1,10.0,900000000.0
+16,"('MR4_input_a == 0.0',)",1,"('MR4_checker == No-violated', 'input_a == 6')",2,1.0,0.1,10.0,900000000.0
+17,"('input_b == 5',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+18,"('MR4_input_b == -4.0', 'input_b == 2')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+19,"('MR4_checker == No-violated', 'input_b == 2')",2,"('MR4_input_b == -4.0',)",1,1.0,0.1,10.0,900000000.0
+20,"('MR4_checker == No-violated', 'MR4_input_b == -4.0')",2,"('input_b == 2',)",1,1.0,0.1,10.0,900000000.0
+21,"('MR4_input_a == -3.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+22,"('MR4_input_a == 1.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+23,"('output == 0.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+24,"('input_b == 2',)",1,"('MR4_checker == No-violated', 'MR4_input_b == -4.0')",2,1.0,0.1,10.0,900000000.0
+25,"('MR4_input_b == -4.0',)",1,"('MR4_checker == No-violated', 'input_b == 2')",2,1.0,0.1,10.0,900000000.0
+26,"('input_a == 6',)",1,"('MR4_input_a == 0.0',)",1,1.0,0.1,10.0,900000000.0
+27,"('MR4_input_a == 0.0',)",1,"('input_a == 6',)",1,1.0,0.1,10.0,900000000.0
+28,"('input_b == 9',)",1,"('MR4_input_b == 3.0',)",1,1.0,0.1,10.0,900000000.0
+29,"('MR4_input_a == -1.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+30,"('MR4_input_b == 3.0',)",1,"('input_b == 9',)",1,1.0,0.1,10.0,900000000.0
+31,"('MR4_input_b == 2.0', 'input_b == 8')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+32,"('MR4_checker == No-violated', 'input_b == 8')",2,"('MR4_input_b == 2.0',)",1,1.0,0.1,10.0,900000000.0
+33,"('MR4_checker == No-violated', 'MR4_input_b == 2.0')",2,"('input_b == 8',)",1,1.0,0.1,10.0,900000000.0
+34,"('input_b == 8',)",1,"('MR4_checker == No-violated', 'MR4_input_b == 2.0')",2,1.0,0.1,10.0,900000000.0
+35,"('MR4_input_b == 2.0',)",1,"('MR4_checker == No-violated', 'input_b == 8')",2,1.0,0.1,10.0,900000000.0
+36,"('input_b == 0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+37,"('input_b == 4',)",1,"('MR4_input_b == -2.0',)",1,1.0,0.1,10.0,900000000.0
+38,"('MR4_input_b == -2.0',)",1,"('input_b == 4',)",1,1.0,0.1,10.0,900000000.0
+39,"('MR4_input_b == -6.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+40,"('MR4_input_b == 0.0', 'input_b == 6')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+41,"('MR4_checker == No-violated', 'input_b == 6')",2,"('MR4_input_b == 0.0',)",1,1.0,0.1,10.0,900000000.0
+42,"('MR4_checker == No-violated', 'MR4_input_b == 0.0')",2,"('input_b == 6',)",1,1.0,0.1,10.0,900000000.0
+43,"('input_b == 9',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+44,"('input_b == 6',)",1,"('MR4_checker == No-violated', 'MR4_input_b == 0.0')",2,1.0,0.1,10.0,900000000.0
+45,"('MR4_input_b == 0.0',)",1,"('MR4_checker == No-violated', 'input_b == 6')",2,1.0,0.1,10.0,900000000.0
+46,"('MR4_input_b == 3.0', 'input_b == 9')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+47,"('input_a == 3',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+48,"('MR4_checker == No-violated', 'input_b == 9')",2,"('MR4_input_b == 3.0',)",1,1.0,0.1,10.0,900000000.0
+49,"('MR4_checker == No-violated', 'MR4_input_b == 3.0')",2,"('input_b == 9',)",1,1.0,0.1,10.0,900000000.0
+50,"('input_b == 9',)",1,"('MR4_checker == No-violated', 'MR4_input_b == 3.0')",2,1.0,0.1,10.0,900000000.0
+51,"('MR4_input_b == 3.0',)",1,"('MR4_checker == No-violated', 'input_b == 9')",2,1.0,0.1,10.0,900000000.0
+52,"('input_b == 6',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+53,"('input_a == 6',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+54,"('MR4_input_b == -1.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+55,"('MR4_input_b == -1.0', 'input_b == 5')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+56,"('MR4_checker == No-violated', 'input_b == 5')",2,"('MR4_input_b == -1.0',)",1,1.0,0.1,10.0,900000000.0
+57,"('MR4_checker == No-violated', 'MR4_input_b == -1.0')",2,"('input_b == 5',)",1,1.0,0.1,10.0,900000000.0
+58,"('input_b == 5',)",1,"('MR4_checker == No-violated', 'MR4_input_b == -1.0')",2,1.0,0.1,10.0,900000000.0
+59,"('MR4_input_b == -1.0',)",1,"('MR4_checker == No-violated', 'input_b == 5')",2,1.0,0.1,10.0,900000000.0
+60,"('input_a == 8',)",1,"('MR4_input_a == 2.0',)",1,1.0,0.1,10.0,900000000.0
+61,"('MR4_input_a == 2.0',)",1,"('input_a == 8',)",1,1.0,0.1,10.0,900000000.0
+62,"('input_a == 5',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+63,"('input_a == 4',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+64,"('input_b == 0',)",1,"('MR4_input_b == -6.0',)",1,1.0,0.1,10.0,900000000.0
+65,"('MR4_input_b == -6.0',)",1,"('input_b == 0',)",1,1.0,0.1,10.0,900000000.0
+66,"('input_b == 3',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+67,"('input_b == 2',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+68,"('MR4_checker == No-violated', 'input_b == 1')",2,"('MR4_input_b == -5.0',)",1,1.0,0.1,10.0,900000000.0
+69,"('MR4_checker == No-violated', 'MR4_input_b == -5.0')",2,"('input_b == 1',)",1,1.0,0.1,10.0,900000000.0
+70,"('input_a == 9',)",1,"('MR4_input_a == 3.0',)",1,1.0,0.1,10.0,900000000.0
+71,"('MR4_input_a == 3.0',)",1,"('input_a == 9',)",1,1.0,0.1,10.0,900000000.0
+72,"('input_b == 1',)",1,"('MR4_checker == No-violated', 'MR4_input_b == -5.0')",2,1.0,0.1,10.0,900000000.0
+73,"('MR4_input_b == -5.0',)",1,"('MR4_checker == No-violated', 'input_b == 1')",2,1.0,0.1,10.0,900000000.0
+74,"('MR4_input_b == 3.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+75,"('MR4_input_a == -4.0', 'input_a == 2')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+76,"('MR4_checker == No-violated', 'input_a == 2')",2,"('MR4_input_a == -4.0',)",1,1.0,0.1,10.0,900000000.0
+77,"('MR4_checker == No-violated', 'MR4_input_a == -4.0')",2,"('input_a == 2',)",1,1.0,0.1,10.0,900000000.0
+78,"('input_a == 2',)",1,"('MR4_checker == No-violated', 'MR4_input_a == -4.0')",2,1.0,0.1,10.0,900000000.0
+79,"('MR4_input_a == -4.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+80,"('MR4_input_a == -4.0',)",1,"('MR4_checker == No-violated', 'input_a == 2')",2,1.0,0.1,10.0,900000000.0
+81,"('input_b == 1',)",1,"('MR4_input_b == -5.0',)",1,1.0,0.1,10.0,900000000.0
+82,"('MR4_input_b == -5.0',)",1,"('input_b == 1',)",1,1.0,0.1,10.0,900000000.0
+83,"('MR4_input_b == -5.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+84,"('MR4_input_a == -5.0', 'input_a == 1')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+85,"('MR4_checker == No-violated', 'input_a == 1')",2,"('MR4_input_a == -5.0',)",1,1.0,0.1,10.0,900000000.0
+86,"('MR4_checker == No-violated', 'MR4_input_a == -5.0')",2,"('input_a == 1',)",1,1.0,0.1,10.0,900000000.0
+87,"('input_a == 1',)",1,"('MR4_checker == No-violated', 'MR4_input_a == -5.0')",2,1.0,0.1,10.0,900000000.0
+88,"('MR4_input_a == -5.0',)",1,"('MR4_checker == No-violated', 'input_a == 1')",2,1.0,0.1,10.0,900000000.0
+89,"('MR4_input_b == -3.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+90,"('input_a == 2',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+91,"('MR4_input_b == 0.0',)",1,"('input_b == 6',)",1,1.0,0.1,10.0,900000000.0
+92,"('input_b == 6',)",1,"('MR4_input_b == 0.0',)",1,1.0,0.1,10.0,900000000.0
+93,"('input_a == 2',)",1,"('MR4_input_a == -4.0',)",1,1.0,0.1,10.0,900000000.0
+94,"('MR4_input_a == -4.0',)",1,"('input_a == 2',)",1,1.0,0.1,10.0,900000000.0
+95,"('input_a == 1',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+96,"('MR4_input_b == -2.0', 'input_b == 4')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+97,"('MR4_checker == No-violated', 'input_b == 4')",2,"('MR4_input_b == -2.0',)",1,1.0,0.1,10.0,900000000.0
+98,"('MR4_checker == No-violated', 'MR4_input_b == -2.0')",2,"('input_b == 4',)",1,1.0,0.1,10.0,900000000.0
+99,"('input_b == 4',)",1,"('MR4_checker == No-violated', 'MR4_input_b == -2.0')",2,1.0,0.1,10.0,900000000.0
+100,"('MR4_input_b == -2.0',)",1,"('MR4_checker == No-violated', 'input_b == 4')",2,1.0,0.1,10.0,900000000.0
+101,"('MR4_input_a == -2.0', 'input_a == 4')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+102,"('MR4_checker == No-violated', 'input_a == 4')",2,"('MR4_input_a == -2.0',)",1,1.0,0.1,10.0,900000000.0
+103,"('MR4_checker == No-violated', 'MR4_input_a == -2.0')",2,"('input_a == 4',)",1,1.0,0.1,10.0,900000000.0
+104,"('input_a == 4',)",1,"('MR4_checker == No-violated', 'MR4_input_a == -2.0')",2,1.0,0.1,10.0,900000000.0
+105,"('MR4_input_a == -2.0',)",1,"('MR4_checker == No-violated', 'input_a == 4')",2,1.0,0.1,10.0,900000000.0
+106,"('MR4_input_a == 1.0', 'input_a == 7')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+107,"('MR4_checker == No-violated', 'input_a == 7')",2,"('MR4_input_a == 1.0',)",1,1.0,0.1,10.0,900000000.0
+108,"('MR4_checker == No-violated', 'MR4_input_a == 1.0')",2,"('input_a == 7',)",1,1.0,0.1,10.0,900000000.0
+109,"('input_a == 7',)",1,"('MR4_checker == No-violated', 'MR4_input_a == 1.0')",2,1.0,0.1,10.0,900000000.0
+110,"('input_b == 1',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+111,"('MR4_input_a == 1.0',)",1,"('MR4_checker == No-violated', 'input_a == 7')",2,1.0,0.1,10.0,900000000.0
+112,"('MR4_input_a == -6.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+113,"('MR4_input_a == 2.0', 'input_a == 8')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+114,"('MR4_checker == No-violated', 'input_a == 8')",2,"('MR4_input_a == 2.0',)",1,1.0,0.1,10.0,900000000.0
+115,"('input_a == 8',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+116,"('MR4_checker == No-violated', 'MR4_input_a == 2.0')",2,"('input_a == 8',)",1,1.0,0.1,10.0,900000000.0
+117,"('input_a == 8',)",1,"('MR4_checker == No-violated', 'MR4_input_a == 2.0')",2,1.0,0.1,10.0,900000000.0
+118,"('MR4_input_b == -4.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+119,"('MR4_input_a == 2.0',)",1,"('MR4_checker == No-violated', 'input_a == 8')",2,1.0,0.1,10.0,900000000.0
+120,"('MR4_input_b == 0.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+121,"('input_a == 0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+122,"('input_b == 2',)",1,"('MR4_input_b == -4.0',)",1,1.0,0.1,10.0,900000000.0
+123,"('MR4_input_b == -4.0',)",1,"('input_b == 2',)",1,1.0,0.1,10.0,900000000.0
+124,"('input_b == 3',)",1,"('MR4_input_b == -3.0',)",1,1.0,0.1,10.0,900000000.0
+125,"('MR4_input_b == -3.0',)",1,"('input_b == 3',)",1,1.0,0.1,10.0,900000000.0
+126,"('MR4_input_a == -6.0', 'input_a == 0')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+127,"('MR4_checker == No-violated', 'input_a == 0')",2,"('MR4_input_a == -6.0',)",1,1.0,0.1,10.0,900000000.0
+128,"('MR4_checker == No-violated', 'MR4_input_a == -6.0')",2,"('input_a == 0',)",1,1.0,0.1,10.0,900000000.0
+129,"('input_a == 0',)",1,"('MR4_checker == No-violated', 'MR4_input_a == -6.0')",2,1.0,0.1,10.0,900000000.0
+130,"('MR4_input_a == -6.0',)",1,"('MR4_checker == No-violated', 'input_a == 0')",2,1.0,0.1,10.0,900000000.0
+131,"('input_a == 7',)",1,"('MR4_input_a == 1.0',)",1,1.0,0.1,10.0,900000000.0
+132,"('MR4_input_a == 1.0',)",1,"('input_a == 7',)",1,1.0,0.1,10.0,900000000.0
+133,"('MR4_input_b == -6.0', 'input_b == 0')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+134,"('MR4_checker == No-violated', 'input_b == 0')",2,"('MR4_input_b == -6.0',)",1,1.0,0.1,10.0,900000000.0
+135,"('MR4_input_a == 0.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+136,"('MR4_checker == No-violated', 'MR4_input_b == -6.0')",2,"('input_b == 0',)",1,1.0,0.1,10.0,900000000.0
+137,"('input_a == 4',)",1,"('MR4_input_a == -2.0',)",1,1.0,0.1,10.0,900000000.0
+138,"('MR4_input_a == -2.0',)",1,"('input_a == 4',)",1,1.0,0.1,10.0,900000000.0
+139,"('input_b == 0',)",1,"('MR4_checker == No-violated', 'MR4_input_b == -6.0')",2,1.0,0.1,10.0,900000000.0
+140,"('MR4_input_a == 2.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+141,"('MR4_input_b == -6.0',)",1,"('MR4_checker == No-violated', 'input_b == 0')",2,1.0,0.1,10.0,900000000.0
+142,"('MR4_input_b == 1.0', 'input_b == 7')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+143,"('MR4_checker == No-violated', 'input_b == 7')",2,"('MR4_input_b == 1.0',)",1,1.0,0.1,10.0,900000000.0
+144,"('MR4_checker == No-violated', 'MR4_input_b == 1.0')",2,"('input_b == 7',)",1,1.0,0.1,10.0,900000000.0
+145,"('input_b == 7',)",1,"('MR4_checker == No-violated', 'MR4_input_b == 1.0')",2,1.0,0.1,10.0,900000000.0
+146,"('MR4_input_b == 1.0',)",1,"('MR4_checker == No-violated', 'input_b == 7')",2,1.0,0.1,10.0,900000000.0
+147,"('input_a == 0',)",1,"('MR4_input_a == -6.0',)",1,1.0,0.1,10.0,900000000.0
+148,"('MR4_input_a == -6.0',)",1,"('input_a == 0',)",1,1.0,0.1,10.0,900000000.0
+149,"('input_b == 8',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+150,"('MR4_input_b == -3.0', 'input_b == 3')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+151,"('MR4_checker == No-violated', 'input_b == 3')",2,"('MR4_input_b == -3.0',)",1,1.0,0.1,10.0,900000000.0
+152,"('input_b == 7',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+153,"('MR4_checker == No-violated', 'MR4_input_b == -3.0')",2,"('input_b == 3',)",1,1.0,0.1,10.0,900000000.0
+154,"('input_b == 3',)",1,"('MR4_checker == No-violated', 'MR4_input_b == -3.0')",2,1.0,0.1,10.0,900000000.0
+155,"('MR4_input_b == -3.0',)",1,"('MR4_checker == No-violated', 'input_b == 3')",2,1.0,0.1,10.0,900000000.0
+156,"('MR4_input_b == 1.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+157,"('input_a == 9',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+158,"('MR4_input_a == -2.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+159,"('MR4_input_a == -1.0', 'input_a == 5')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+160,"('MR4_checker == No-violated', 'input_a == 5')",2,"('MR4_input_a == -1.0',)",1,1.0,0.1,10.0,900000000.0
+161,"('MR4_checker == No-violated', 'MR4_input_a == -1.0')",2,"('input_a == 5',)",1,1.0,0.1,10.0,900000000.0
+162,"('input_a == 5',)",1,"('MR4_checker == No-violated', 'MR4_input_a == -1.0')",2,1.0,0.1,10.0,900000000.0
+163,"('MR4_input_a == -1.0',)",1,"('MR4_checker == No-violated', 'input_a == 5')",2,1.0,0.1,10.0,900000000.0
+164,"('input_b == 8',)",1,"('MR4_input_b == 2.0',)",1,1.0,0.1,10.0,900000000.0
+165,"('MR4_input_b == 2.0',)",1,"('input_b == 8',)",1,1.0,0.1,10.0,900000000.0
+166,"('MR4_input_b == 2.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+167,"('input_a == 5',)",1,"('MR4_input_a == -1.0',)",1,1.0,0.1,10.0,900000000.0
+168,"('MR4_input_a == -1.0',)",1,"('input_a == 5',)",1,1.0,0.1,10.0,900000000.0
+169,"('MR4_input_a == -3.0', 'input_a == 3')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+170,"('MR4_checker == No-violated', 'input_a == 3')",2,"('MR4_input_a == -3.0',)",1,1.0,0.1,10.0,900000000.0
+171,"('MR4_checker == No-violated', 'MR4_input_a == -3.0')",2,"('input_a == 3',)",1,1.0,0.1,10.0,900000000.0
+172,"('input_a == 3',)",1,"('MR4_checker == No-violated', 'MR4_input_a == -3.0')",2,1.0,0.1,10.0,900000000.0
+173,"('MR4_input_a == -3.0',)",1,"('MR4_checker == No-violated', 'input_a == 3')",2,1.0,0.1,10.0,900000000.0
+174,"('MR4_input_a == -5.0',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+175,"('input_b == 4',)",1,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0
+176,"('input_b == 5',)",1,"('MR4_input_b == -1.0',)",1,1.0,0.1,10.0,900000000.0
+177,"('MR4_input_b == -1.0',)",1,"('input_b == 5',)",1,1.0,0.1,10.0,900000000.0
+178,"('input_a == 1',)",1,"('MR4_input_a == -5.0',)",1,1.0,0.1,10.0,900000000.0
+179,"('MR4_input_a == -5.0',)",1,"('input_a == 1',)",1,1.0,0.1,10.0,900000000.0
+180,"('MR4_input_b == -5.0', 'input_b == 1')",2,"('MR4_checker == No-violated',)",1,1.0,0.1,1.0,0.0

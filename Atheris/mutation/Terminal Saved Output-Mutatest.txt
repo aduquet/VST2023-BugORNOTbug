@@ -1,0 +1,837 @@
+Last login: Tue Nov 15 10:29:48 on ttys001
+alduck@Alejas-MacBook-Air VST2023 % cd..
+zsh: command not found: cd..
+alduck@Alejas-MacBook-Air VST2023 % cd ..
+alduck@Alejas-MacBook-Air PhDStuff_repo % python3 src/run.py -i examples/check_triangle.py
+/opt/homebrew/bin/python3: can't open file '/Users/alduck/Documents/PhDStuff_repo/src/run.py': [Errno 2] No such file or directory
+alduck@Alejas-MacBook-Air PhDStuff_repo % ls 
+Automatic_test_generation		PasiveTestingUsingMTplusFuzzTesting
+Fuzzing					ProgressMeetings
+Metamorphic_testing			VST2023
+MutationTesting-Junit5			triangleClass
+NextDate-2				triangleClass_manualTest
+alduck@Alejas-MacBook-Air PhDStuff_repo % cd ..
+alduck@Alejas-MacBook-Air Documents % cd GitHub/   
+alduck@Alejas-MacBook-Air GitHub % ls
+ADT_SAS				atheris				release.keystore
+FuzzingExp-GoogleOSS-Fuzz	llvm-project			symbolic-fuzzer
+MRs-Where2findThem		quiz-flutter			vsTodoPlugin
+alduck@Alejas-MacBook-Air GitHub % cd symbolic-fuzzer 
+alduck@Alejas-MacBook-Air symbolic-fuzzer % ;s
+zsh: command not found: s
+alduck@Alejas-MacBook-Air symbolic-fuzzer % ls
+README.md		examples		requirements.txt	src
+alduck@Alejas-MacBook-Air symbolic-fuzzer % cd symbolic-fuzzer
+cd: no such file or directory: symbolic-fuzzer
+alduck@Alejas-MacBook-Air symbolic-fuzzer % python3 src/run.py -i examples/check_triangle.py
+Traceback (most recent call last):
+  File "/Users/alduck/Documents/GitHub/symbolic-fuzzer/src/run.py", line 11, in <module>
+    from SymbolicFuzzer import AdvancedSymbolicFuzzer, SimpleSymbolicFuzzer
+  File "/Users/alduck/Documents/GitHub/symbolic-fuzzer/src/SymbolicFuzzer.py", line 53, in <module>
+    SYM_VARS = {int: (z3.Int, z3.IntVal), float: (z3.Real, z3.RealVal), str: (z3.String, z3.StringVal)}
+AttributeError: module 'z3' has no attribute 'Int'
+alduck@Alejas-MacBook-Air symbolic-fuzzer % python3 src/run.py -i examples/check_triangle.py
+Traceback (most recent call last):
+  File "/Users/alduck/Documents/GitHub/symbolic-fuzzer/src/run.py", line 11, in <module>
+    from SymbolicFuzzer import AdvancedSymbolicFuzzer, SimpleSymbolicFuzzer
+  File "/Users/alduck/Documents/GitHub/symbolic-fuzzer/src/SymbolicFuzzer.py", line 53, in <module>
+    SYM_VARS = {int: (z3.Int, z3.IntVal), float: (z3.Real, z3.RealVal), str: (z3.String, z3.StringVal)}
+AttributeError: module 'z3' has no attribute 'Int'
+alduck@Alejas-MacBook-Air symbolic-fuzzer % where pandas 
+pandas not found
+alduck@Alejas-MacBook-Air symbolic-fuzzer % which pandas 
+pandas not found
+alduck@Alejas-MacBook-Air symbolic-fuzzer % which python3\
+> ç
+alduck@Alejas-MacBook-Air symbolic-fuzzer % which python3 
+/opt/homebrew/bin/python3
+alduck@Alejas-MacBook-Air symbolic-fuzzer % cd ..
+alduck@Alejas-MacBook-Air GitHub % ls 
+ADT_SAS				atheris				release.keystore
+FuzzingExp-GoogleOSS-Fuzz	llvm-project			symbolic-fuzzer
+MRs-Where2findThem		quiz-flutter			vsTodoPlugin
+alduck@Alejas-MacBook-Air GitHub % cd atheris 
+alduck@Alejas-MacBook-Air atheris % ;s
+zsh: command not found: s
+alduck@Alejas-MacBook-Air atheris % ls
+CONTRIBUTING.md			atheris_no_libfuzzer.py		hall_of_fame.md			setup.py
+LICENSE				contrib				native_extension_fuzzing.md	setup_utils
+MANIFEST.in			deployment			run_tests.sh			src
+README.md			example_fuzzers			setup.cfg			third_party
+alduck@Alejas-MacBook-Air atheris % python3 example_fuzzers/custom_mutator_example.py --no_mutator
++
+INFO: Using built-in libfuzzer
+WARNING: Failed to find function "__sanitizer_acquire_crash_state". Reason dlsym(RTLD_DEFAULT, __sanitizer_acquire_crash_state): symbol not found.
+WARNING: Failed to find function "__sanitizer_print_stack_trace". Reason dlsym(RTLD_DEFAULT, __sanitizer_print_stack_trace): symbol not found.
+WARNING: Failed to find function "__sanitizer_set_death_callback". Reason dlsym(RTLD_DEFAULT, __sanitizer_set_death_callback): symbol not found.
+INFO: libFuzzer ignores flags that start with '--'
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 3225440914
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
+INFO: A corpus is not provided, starting from an empty corpus
+#2	INITED cov: 2 ft: 2 corp: 1/1b exec/s: 0 rss: 34Mb
+#2097152	pulse  cov: 2 ft: 2 corp: 1/1b lim: 4096 exec/s: 699050 rss: 34Mb
+#4194304	pulse  cov: 2 ft: 2 corp: 1/1b lim: 4096 exec/s: 599186 rss: 34Mb
+#8388608	pulse  cov: 2 ft: 2 corp: 1/1b lim: 4096 exec/s: 559240 rss: 34Mb
+#16777216	pulse  cov: 2 ft: 2 corp: 1/1b lim: 4096 exec/s: 541200 rss: 35Mb
+#33554432	pulse  cov: 2 ft: 2 corp: 1/1b lim: 4096 exec/s: 532610 rss: 35Mb
+^CKeyboardInterrupt: stopping.
+alduck@Alejas-MacBook-Air atheris % python3 example_fuzzers/custom_mutator_example.py             
+===========================
+Traceback (most recent call last):
+  File "/Users/alduck/Documents/GitHub/atheris/example_fuzzers/custom_mutator_example.py", line 75, in <module>
+    atheris.Setup(sys.argv, TestOneInput, custom_mutator='CustomMutator')
+RuntimeError: Unable to cast Python instance to C++ type (#define PYBIND11_DETAILED_ERROR_MESSAGES or compile in debug mode for details)
+alduck@Alejas-MacBook-Air atheris % git pull                                         
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+alduck@Alejas-MacBook-Air atheris % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   example_fuzzers/custom_mutator_example.py
+	modified:   example_fuzzers/fuzzing_example.py
+	modified:   example_fuzzers/regex_fuzzing_example.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	example_fuzzers/__pycache__/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+alduck@Alejas-MacBook-Air atheris % git * 
+git: 'CONTRIBUTING.md' is not a git command. See 'git --help'.
+alduck@Alejas-MacBook-Air atheris % git add *
+alduck@Alejas-MacBook-Air atheris % git commit -m 'exploring example_Fuzzers folder'
+[master 7299f37] exploring example_Fuzzers folder
+ 4 files changed, 53 insertions(+), 3 deletions(-)
+ create mode 100644 example_fuzzers/__pycache__/example_library.cpython-310.pyc
+alduck@Alejas-MacBook-Air atheris % git push
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.60 KiB | 1.60 MiB/s, done.
+Total 8 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 4 local objects.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/aduquet/Exploring-atheris.git
+To https://github.com/aduquet/atheris.git
+   6068f9e..7299f37  master -> master
+alduck@Alejas-MacBook-Air atheris % git pull
+Already up to date.
+alduck@Alejas-MacBook-Air atheris % python3 example_fuzzers/custom_mutator_example.py             
+===========================
+Traceback (most recent call last):
+  File "/Users/alduck/Documents/GitHub/Exploring-atheris/example_fuzzers/custom_mutator_example.py", line 75, in <module>
+    atheris.Setup(sys.argv, TestOneInput, custom_mutator='CustomMutator')
+RuntimeError: Unable to cast Python instance to C++ type (#define PYBIND11_DETAILED_ERROR_MESSAGES or compile in debug mode for details)
+alduck@Alejas-MacBook-Air atheris % ls
+CONTRIBUTING.md			atheris_no_libfuzzer.py		hall_of_fame.md			setup.py
+LICENSE				contrib				native_extension_fuzzing.md	setup_utils
+MANIFEST.in			deployment			run_tests.sh			src
+README.md			example_fuzzers			setup.cfg			third_party
+alduck@Alejas-MacBook-Air atheris % cd ..
+alduck@Alejas-MacBook-Air GitHub % ls
+ADT_SAS				MRs-Where2findThem		release.keystore
+Exploring-atheris		llvm-project			symbolic-fuzzer
+FuzzingExp-GoogleOSS-Fuzz	quiz-flutter			vsTodoPlugin
+alduck@Alejas-MacBook-Air GitHub % cd Exploring-atheris 
+alduck@Alejas-MacBook-Air Exploring-atheris % ls                  
+CONTRIBUTING.md			atheris_no_libfuzzer.py		hall_of_fame.md			setup.py
+LICENSE				contrib				native_extension_fuzzing.md	setup_utils
+MANIFEST.in			deployment			run_tests.sh			src
+README.md			example_fuzzers			setup.cfg			third_party
+alduck@Alejas-MacBook-Air Exploring-atheris % python3 example_fuzzers/custom_mutator_example.py
+===========================
+Traceback (most recent call last):
+  File "/Users/alduck/Documents/GitHub/Exploring-atheris/example_fuzzers/custom_mutator_example.py", line 75, in <module>
+    atheris.Setup(sys.argv, TestOneInput, custom_mutator='CustomMutator')
+RuntimeError: Unable to cast Python instance to C++ type (#define PYBIND11_DETAILED_ERROR_MESSAGES or compile in debug mode for details)
+alduck@Alejas-MacBook-Air Exploring-atheris % cd ...
+cd: no such file or directory: ...
+alduck@Alejas-MacBook-Air Exploring-atheris % cd ..
+alduck@Alejas-MacBook-Air GitHub % ls
+ADT_SAS				FuzzingExp-GoogleOSS-Fuzz	llvm-project			release.keystore		vsTodoPlugin
+Exploring-atheris		MRs-Where2findThem		quiz-flutter			symbolic-fuzzer
+alduck@Alejas-MacBook-Air GitHub % git clone https://github.com/EvanKepner/mutatest.git
+Cloning into 'mutatest'...
+remote: Enumerating objects: 2211, done.
+remote: Counting objects: 100% (204/204), done.
+remote: Compressing objects: 100% (136/136), done.
+remote: Total 2211 (delta 126), reused 131 (delta 68), pack-reused 2007
+Receiving objects: 100% (2211/2211), 796.94 KiB | 9.06 MiB/s, done.
+Resolving deltas: 100% (1577/1577), done.
+alduck@Alejas-MacBook-Air GitHub % clear
+
+alduck@Alejas-MacBook-Air GitHub % ls
+ADT_SAS				llvm-project			symbolic-fuzzer
+Exploring-atheris		mutatest			vsTodoPlugin
+FuzzingExp-GoogleOSS-Fuzz	quiz-flutter
+MRs-Where2findThem		release.keystore
+alduck@Alejas-MacBook-Air GitHub % cd mutatest 
+alduck@Alejas-MacBook-Air mutatest % ls
+AUTHORS.rst		MANIFEST.in		docs			setup.cfg
+CHANGELOG.rst		README.rst		mutatest		setup.py
+CONTRIBUTING.rst	azure-pipelines-vms.yml	pyproject.toml		tox.ini
+LICENSE			azure-pipelines.yml	pytest.ini
+alduck@Alejas-MacBook-Air mutatest % cd mutatest 
+alduck@Alejas-MacBook-Air mutatest % ls
+__init__.py	api.py		cli.py		report.py	tests
+_devtools.py	cache.py	filters.py	run.py		transformers.py
+alduck@Alejas-MacBook-Air mutatest % cd ..
+alduck@Alejas-MacBook-Air mutatest % cd docs 
+alduck@Alejas-MacBook-Air docs % ;s
+zsh: command not found: s
+alduck@Alejas-MacBook-Air docs % ls
+Makefile		changelog.rst		index.rst		modules.rst
+_static			commandline.rst		install.rst		mutants.rst
+_templates		conf.py			license.rst		requirements.txt
+api_tutorial		contributing.rst	make.bat
+alduck@Alejas-MacBook-Air docs % cd api_tutorial 
+alduck@Alejas-MacBook-Air api_tutorial % ls
+api_tutorial.ipynb	api_tutorial.rst	example			pytest.ini
+alduck@Alejas-MacBook-Air api_tutorial % 
+alduck@Alejas-MacBook-Air api_tutorial % mutatest -s example -t "pytest" -r 314              
+2022-11-16 14:06:10,478: Running clean trial
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/mutatest", line 8, in <module>
+    sys.exit(cli_main())
+  File "/opt/homebrew/lib/python3.10/site-packages/mutatest/cli.py", line 731, in cli_main
+    main(args)
+  File "/opt/homebrew/lib/python3.10/site-packages/mutatest/cli.py", line 753, in main
+    clean_runtime_1 = run.clean_trial(src_loc=src_loc, test_cmds=args.testcmds)
+  File "/opt/homebrew/lib/python3.10/site-packages/mutatest/run.py", line 162, in clean_trial
+    clean_run = subprocess.run(test_cmds, capture_output=False)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'pytest'
+alduck@Alejas-MacBook-Air api_tutorial % pip3 install pytest
+Collecting pytest
+  Downloading pytest-7.2.0-py3-none-any.whl (316 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 316.8/316.8 kB 5.5 MB/s eta 0:00:00
+Requirement already satisfied: packaging in /opt/homebrew/lib/python3.10/site-packages (from pytest) (21.3)
+Requirement already satisfied: exceptiongroup>=1.0.0rc8 in /opt/homebrew/lib/python3.10/site-packages (from pytest) (1.0.1)
+Collecting tomli>=1.0.0
+  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+Collecting pluggy<2.0,>=0.12
+  Downloading pluggy-1.0.0-py2.py3-none-any.whl (13 kB)
+Requirement already satisfied: attrs>=19.2.0 in /opt/homebrew/lib/python3.10/site-packages (from pytest) (22.1.0)
+Collecting iniconfig
+  Downloading iniconfig-1.1.1-py2.py3-none-any.whl (5.0 kB)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /opt/homebrew/lib/python3.10/site-packages (from packaging->pytest) (3.0.9)
+Installing collected packages: iniconfig, tomli, pluggy, pytest
+Successfully installed iniconfig-1.1.1 pluggy-1.0.0 pytest-7.2.0 tomli-2.0.1
+alduck@Alejas-MacBook-Air api_tutorial % mutatest -s example -t "pytest" -r 314
+2022-11-16 14:06:24,537: Running clean trial
+ERROR: usage: pytest [options] [file_or_dir] [file_or_dir] [...]
+pytest: error: unrecognized arguments: --cov=example
+  inifile: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial/pytest.ini
+  rootdir: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial
+
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/mutatest", line 8, in <module>
+    sys.exit(cli_main())
+  File "/opt/homebrew/lib/python3.10/site-packages/mutatest/cli.py", line 731, in cli_main
+    main(args)
+  File "/opt/homebrew/lib/python3.10/site-packages/mutatest/cli.py", line 753, in main
+    clean_runtime_1 = run.clean_trial(src_loc=src_loc, test_cmds=args.testcmds)
+  File "/opt/homebrew/lib/python3.10/site-packages/mutatest/run.py", line 166, in clean_trial
+    raise BaselineTestException(
+mutatest.run.BaselineTestException: Clean trial does not pass, mutant tests will be meaningless.
+Output: None
+alduck@Alejas-MacBook-Air api_tutorial % mutatest -s example/ -t "pytest" -r 314
+2022-11-16 14:07:34,001: Running clean trial
+ERROR: usage: pytest [options] [file_or_dir] [file_or_dir] [...]
+pytest: error: unrecognized arguments: --cov=example
+  inifile: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial/pytest.ini
+  rootdir: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial
+
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/mutatest", line 8, in <module>
+    sys.exit(cli_main())
+  File "/opt/homebrew/lib/python3.10/site-packages/mutatest/cli.py", line 731, in cli_main
+    main(args)
+  File "/opt/homebrew/lib/python3.10/site-packages/mutatest/cli.py", line 753, in main
+    clean_runtime_1 = run.clean_trial(src_loc=src_loc, test_cmds=args.testcmds)
+  File "/opt/homebrew/lib/python3.10/site-packages/mutatest/run.py", line 166, in clean_trial
+    raise BaselineTestException(
+mutatest.run.BaselineTestException: Clean trial does not pass, mutant tests will be meaningless.
+Output: None
+alduck@Alejas-MacBook-Air api_tutorial % mutatest --help                        
+usage: Mutatest [-h] [-k [STR ...]] [-e PATH] [-m {f,s,d,sd}] [-n INT] [-o PATH] [-r INT] [-s PATH]
+                [-t STR_CMDS] [-y [STR ...]] [-x INT] [--debug] [--nocov] [--parallel]
+                [--timeout_factor FLOAT > 1]
+
+Python mutation testing. Mutatest will manipulate local __pycache__ files.
+
+options:
+  -h, --help            show this help message and exit
+  -k [STR ...], --skip [STR ...]
+                        Mutation categories to skip for trials. (default: empty list)
+  -e PATH, --exclude PATH
+                        Path to .py file to exclude, multiple -e entries supported. (default: None)
+  -m {f,s,d,sd}, --mode {f,s,d,sd}
+                        Running modes, see the choice option descriptions below. (default: s)
+  -n INT, --nlocations INT
+                        Number of locations in code to randomly select for mutation from possible targets. (default: 10)
+  -o PATH, --output PATH
+                        Output RST file location for results. (default: No output written)
+  -r INT, --rseed INT   Random seed to use for sample selection.
+  -s PATH, --src PATH   Source code (file or directory) for mutation testing. (default: auto-detection attempt).
+  -t STR_CMDS, --testcmds STR_CMDS
+                        Test command string to execute. (default: 'pytest')
+  -y [STR ...], --only [STR ...]
+                        Only use these mutation categories for trials. (default: empty list)
+  -x INT, --exception INT
+                        Count of survivors to raise Mutation Exception for system exit.
+  --debug               Turn on DEBUG level logging output.
+  --nocov               Ignore coverage files for optimization.
+  --parallel            Run with multiprocessing (Py3.8 only).
+  --timeout_factor FLOAT > 1
+                        If a mutation trial running time is beyond this factor multiplied by the first clean trial running time then that mutation trial is aborted and logged as a timeout.
+
+Additional command argument information:
+========================================
+
+Skip/Only Category Lists:
+-------------------------
+ - Use -k and -y to set skip/only lists of mutation categories. If -y categories are set then
+   all mutation categories except those specified are skipped during trials. If -k categories
+   are set then all mutations categories except those specified are considered. If you set both
+   -k and -y then the only categories are selected first, and then the skipped
+   categories are removed from the candidate set.
+
+Exclude:
+--------
+ - Useful for excluding files that are not included in test coverage. You can set the arg
+   multiple times for additional files e.g. mutatest -e src/__init__.py -e src/_devtools.py
+   would exclude both src/__init__.py and src/_devtools.py from mutation processing.
+
+Mode:
+------
+ - f: full mode, run all possible combinations (slowest but most thorough).
+ - s: break on first SURVIVOR per mutated location e.g. if there is a single surviving mutation
+      at a location move to the next location without further testing.
+      This is the default mode.
+ - d: break on the first DETECTION per mutated location e.g. if there is a detected mutation on
+      at a location move to the next one.
+ - sd: break on the first SURVIVOR or DETECTION (fastest, and least thorough).
+
+ The API for mutatest.controller.run_mutation_trials offers finer control over the
+ run method beyond the CLI.
+
+Output:
+-------
+ - You can specify a file name or a full path. The folders in the path will be created if they
+   do not already exist. The output is a text file formatted in RST headings.
+
+Src:
+----
+ - This can be a file or a directory. If it is a directory it is recursively searched for .py
+   files. Note that the __pycache__ file associated with the file (or sub-files in a directory)
+   will be manipulated during mutation testing. If this argument is unspecified, mutatest will
+   attempt to find Python packages (using setuptools.find_packages) and use the first
+   entry from that auto-detection attempt.
+
+Testcmds:
+---------
+ - Specify custom test commands as a string e.g. 'pytest -m "not slow"' for running only
+   the test suite without the marked "slow" tests. Shlex.split() is used to parse the
+   entered command string. Mutant status e.g. SURVIVED vs. DETECTED is based on the
+   return code of the command. Return code 0 = SURVIVED, 1 = DETECTED, 2 = ERROR, and
+   all others are UNKNOWN. Stdout is shown from the command if --debug mode is enabled.
+
+Exception:
+----------
+ - A count of survivors for raising an exception after the trails. This is useful if you want
+   to raise a system-exit error in automatic running of the trials. For example, you could
+   have a continuous integration pipeline stage that runs mutatest over an important section
+   of tests (optionally specifying a random seed or categories) and cause a system exit if
+   a set number of allowable survivors is exceeded.
+
+Parallel:
+---------
+ - Run tests with multi-processing using all available CPUs detected with os.cpu_count().
+   A buffer of 10s is added to the calculated timeout (based on the clean trial run time and
+   timeout_factor argument) to avoid false timeouts with dispatch scheduling on fast test
+   trials in subprocess execution. Parallel pycache is managed by setting the environment
+   variable PYTHONPYCACHEPREFIX to a subdirectory in '.mutatest_cache/' for each trial.
+   These cache files, and the '.mutatest_cache/' directory, are removed after running.
+   This command only has an effect if you are running Python 3.8.
+
+Supported mutation sets
+=======================
+These are the current operations that are mutated as compatible sets. Use the category code for only/skip selections.
+
+AugAssign
+---------
+ - Description: Augmented assignment e.g. += -= /= *=
+ - Members: {'AugAssign_Sub', 'AugAssign_Mult', 'AugAssign_Div', 'AugAssign_Add'}
+ - Category Code: aa
+
+BinOp
+-----
+ - Description: Binary operations e.g. + - * / %
+ - Members: {<class 'ast.Div'>, <class 'ast.Mult'>, <class 'ast.Sub'>, <class 'ast.Add'>, <class 'ast.Pow'>, <class 'ast.FloorDiv'>, <class 'ast.Mod'>}
+ - Category Code: bn
+
+BinOp Bit Comparison
+--------------------
+ - Description: Bitwise comparison operations e.g. x & y, x | y, x ^ y
+ - Members: {<class 'ast.BitAnd'>, <class 'ast.BitOr'>, <class 'ast.BitXor'>}
+ - Category Code: bc
+
+BinOp Bit Shifts
+----------------
+ - Description: Bitwise shift operations e.g. << >>
+ - Members: {<class 'ast.LShift'>, <class 'ast.RShift'>}
+ - Category Code: bs
+
+BoolOp
+------
+ - Description: Boolean operations e.g. and or
+ - Members: {<class 'ast.Or'>, <class 'ast.And'>}
+ - Category Code: bl
+
+Compare
+-------
+ - Description: Comparison operations e.g. == >= <= > <
+ - Members: {<class 'ast.Gt'>, <class 'ast.LtE'>, <class 'ast.Lt'>, <class 'ast.NotEq'>, <class 'ast.Eq'>, <class 'ast.GtE'>}
+ - Category Code: cp
+
+Compare In
+----------
+ - Description: Compare membership e.g. in, not in
+ - Members: {<class 'ast.In'>, <class 'ast.NotIn'>}
+ - Category Code: cn
+
+Compare Is
+----------
+ - Description: Comapre identity e.g. is, is not
+ - Members: {<class 'ast.Is'>, <class 'ast.IsNot'>}
+ - Category Code: cs
+
+If
+--
+ - Description: If statement tests e.g. original statement, True, False
+ - Members: {'If_Statement', 'If_True', 'If_False'}
+ - Category Code: if
+
+Index
+-----
+ - Description: Index values for iterables e.g. i[-1], i[0], i[0][1]
+ - Members: {'Index_NumZero', 'Index_NumPos', 'Index_NumNeg'}
+ - Category Code: ix
+
+NameConstant
+------------
+ - Description: Named constant mutations e.g. True, False, None
+ - Members: {False, True, None}
+ - Category Code: nc
+
+Slice Unbounded Swap
+--------------------
+ - Description: Slice mutations to swap lower/upper values, x[2:] (unbound upper) to x[:2], (unbound lower). Steps are not changed.
+ - Members: {'Slice_Unbounded', 'Slice_UnboundLower', 'Slice_UnboundUpper'}
+ - Category Code: su
+
+Mutatest information
+====================
+ - Version: 3.1.0
+ - License: MIT
+ - URL: https://github.com/EvanKepner/mutatest
+ - Copyright (c) 2018-2020 Evan Kepner
+alduck@Alejas-MacBook-Air api_tutorial % mutatest -s example/ -t "pytest" -r 314
+2022-11-16 14:09:05,324: Running clean trial
+ERROR: usage: pytest [options] [file_or_dir] [file_or_dir] [...]
+pytest: error: unrecognized arguments: --cov=example
+  inifile: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial/pytest.ini
+  rootdir: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial
+
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/mutatest", line 8, in <module>
+    sys.exit(cli_main())
+  File "/opt/homebrew/lib/python3.10/site-packages/mutatest/cli.py", line 731, in cli_main
+    main(args)
+  File "/opt/homebrew/lib/python3.10/site-packages/mutatest/cli.py", line 753, in main
+    clean_runtime_1 = run.clean_trial(src_loc=src_loc, test_cmds=args.testcmds)
+  File "/opt/homebrew/lib/python3.10/site-packages/mutatest/run.py", line 166, in clean_trial
+    raise BaselineTestException(
+mutatest.run.BaselineTestException: Clean trial does not pass, mutant tests will be meaningless.
+Output: None
+alduck@Alejas-MacBook-Air api_tutorial % mutatest -s example/ -t "pytest" -r 314
+2022-11-16 14:09:35,173: Running clean trial
+ERROR: usage: pytest [options] [file_or_dir] [file_or_dir] [...]
+pytest: error: unrecognized arguments: --cov=example
+  inifile: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial/pytest.ini
+  rootdir: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial
+
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/mutatest", line 8, in <module>
+    sys.exit(cli_main())
+  File "/opt/homebrew/lib/python3.10/site-packages/mutatest/cli.py", line 731, in cli_main
+    main(args)
+  File "/opt/homebrew/lib/python3.10/site-packages/mutatest/cli.py", line 753, in main
+    clean_runtime_1 = run.clean_trial(src_loc=src_loc, test_cmds=args.testcmds)
+  File "/opt/homebrew/lib/python3.10/site-packages/mutatest/run.py", line 166, in clean_trial
+    raise BaselineTestException(
+mutatest.run.BaselineTestException: Clean trial does not pass, mutant tests will be meaningless.
+Output: None
+alduck@Alejas-MacBook-Air api_tutorial % pip install pytest-cov
+Collecting pytest-cov
+  Downloading pytest_cov-4.0.0-py3-none-any.whl (21 kB)
+Requirement already satisfied: pytest>=4.6 in /opt/homebrew/lib/python3.10/site-packages (from pytest-cov) (7.2.0)
+Requirement already satisfied: coverage[toml]>=5.2.1 in /opt/homebrew/lib/python3.10/site-packages (from pytest-cov) (5.5)
+Collecting toml
+  Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Requirement already satisfied: packaging in /opt/homebrew/lib/python3.10/site-packages (from pytest>=4.6->pytest-cov) (21.3)
+Requirement already satisfied: attrs>=19.2.0 in /opt/homebrew/lib/python3.10/site-packages (from pytest>=4.6->pytest-cov) (22.1.0)
+Requirement already satisfied: tomli>=1.0.0 in /opt/homebrew/lib/python3.10/site-packages (from pytest>=4.6->pytest-cov) (2.0.1)
+Requirement already satisfied: pluggy<2.0,>=0.12 in /opt/homebrew/lib/python3.10/site-packages (from pytest>=4.6->pytest-cov) (1.0.0)
+Requirement already satisfied: exceptiongroup>=1.0.0rc8 in /opt/homebrew/lib/python3.10/site-packages (from pytest>=4.6->pytest-cov) (1.0.1)
+Requirement already satisfied: iniconfig in /opt/homebrew/lib/python3.10/site-packages (from pytest>=4.6->pytest-cov) (1.1.1)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /opt/homebrew/lib/python3.10/site-packages (from packaging->pytest>=4.6->pytest-cov) (3.0.9)
+Installing collected packages: toml, pytest-cov
+Successfully installed pytest-cov-4.0.0 toml-0.10.2
+alduck@Alejas-MacBook-Air api_tutorial % mutatest -s example/ -t "pytest" -r 314
+2022-11-16 14:10:01,548: Running clean trial
+============================================== test session starts ===============================================
+platform darwin -- Python 3.10.8, pytest-7.2.0, pluggy-1.0.0 -- /opt/homebrew/opt/python@3.10/bin/python3.10
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase('/Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial/.hypothesis/examples')
+rootdir: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial, configfile: pytest.ini
+plugins: hypothesis-6.56.4, cov-4.0.0, anyio-3.6.2
+collected 2 items                                                                                                
+
+example/test_ab.py::test_add_five PASSED                                                                   [ 50%]
+example/test_ab.py::test_is_match PASSED                                                                   [100%]
+
+---------- coverage: platform darwin, python 3.10.8-final-0 ----------
+Name                 Stmts   Miss  Cover
+----------------------------------------
+example/a.py             5      1    80%
+example/b.py             3      0   100%
+example/test_ab.py       6      0   100%
+----------------------------------------
+TOTAL                   14      1    93%
+
+
+=============================================== 2 passed in 0.58s ================================================
+2022-11-16 14:10:02,467: 2 mutation targets found in example/a.py AST.
+2022-11-16 14:10:02,468: 1 mutation targets found in example/b.py AST.
+2022-11-16 14:10:02,468: Setting random.seed to: 314
+2022-11-16 14:10:02,470: Total sample space size: 2
+2022-11-16 14:10:02,470: 10 exceeds sample space, using full sample: 2.
+2022-11-16 14:10:02,470: Starting individual mutation trials!
+2022-11-16 14:10:02,470: Running serial (single processor) dispatch mode.
+2022-11-16 14:10:02,470: Current target location: a.py, LocIndex(ast_class='BinOp', lineno=6, col_offset=11, op_type=<class 'ast.Add'>, end_lineno=6, end_col_offset=16)
+2022-11-16 14:10:02,969: Result: Detected at example/a.py: (6, 11)
+2022-11-16 14:10:03,941: Result: Detected at example/a.py: (6, 11)
+2022-11-16 14:10:04,780: Result: Survived at example/a.py: (6, 11)
+2022-11-16 14:10:04,781: Break on survival: stopping further mutations at location.
+2022-11-16 14:10:04,781: Current target location: b.py, LocIndex(ast_class='CompareIs', lineno=6, col_offset=11, op_type=<class 'ast.Is'>, end_lineno=6, end_col_offset=17)
+2022-11-16 14:10:05,791: Result: Detected at example/b.py: (6, 11)
+2022-11-16 14:10:05,793: Running clean trial
+============================================== test session starts ===============================================
+platform darwin -- Python 3.10.8, pytest-7.2.0, pluggy-1.0.0 -- /opt/homebrew/opt/python@3.10/bin/python3.10
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase('/Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial/.hypothesis/examples')
+rootdir: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial, configfile: pytest.ini
+plugins: hypothesis-6.56.4, cov-4.0.0, anyio-3.6.2
+collected 2 items                                                                                                
+
+example/test_ab.py::test_add_five PASSED                                                                   [ 50%]
+example/test_ab.py::test_is_match PASSED                                                                   [100%]
+
+---------- coverage: platform darwin, python 3.10.8-final-0 ----------
+Name                 Stmts   Miss  Cover
+----------------------------------------
+example/a.py             5      1    80%
+example/b.py             3      0   100%
+example/test_ab.py       6      0   100%
+----------------------------------------
+TOTAL                   14      1    93%
+
+
+=============================================== 2 passed in 0.30s ================================================
+2022-11-16 14:10:06,840: CLI Report:
+
+Mutatest diagnostic summary
+===========================
+ - Source location: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial/example
+ - Test commands: ['pytest']
+ - Mode: s
+ - Excluded files: []
+ - N locations input: 10
+ - Random seed: 314
+
+Random sample details
+---------------------
+ - Total locations mutated: 2
+ - Total locations identified: 2
+ - Location sample coverage: 100.00 %
+
+
+Running time details
+--------------------
+ - Clean trial 1 run time: 0:00:00.917725
+ - Clean trial 2 run time: 0:00:01.044805
+ - Mutation trials total run time: 0:00:03.324990
+
+2022-11-16 14:10:06,841: Trial Summary Report:
+
+Overall mutation trial summary
+==============================
+ - DETECTED: 3
+ - SURVIVED: 1
+ - TOTAL RUNS: 4
+ - RUN DATETIME: 2022-11-16 14:10:06.840286
+
+2022-11-16 14:10:06,841: Detected mutations:
+
+DETECTED
+--------
+ - example/a.py: (l: 6, c: 11) - mutation from <class 'ast.Add'> to <class 'ast.Sub'>
+ - example/a.py: (l: 6, c: 11) - mutation from <class 'ast.Add'> to <class 'ast.Mod'>
+ - example/b.py: (l: 6, c: 11) - mutation from <class 'ast.Is'> to <class 'ast.IsNot'>
+
+2022-11-16 14:10:06,841: Timedout mutations:
+
+2022-11-16 14:10:06,841: Surviving mutations:
+
+SURVIVED
+--------
+ - example/a.py: (l: 6, c: 11) - mutation from <class 'ast.Add'> to <class 'ast.Mult'>
+
+alduck@Alejas-MacBook-Air api_tutorial % mutatest -s example/ -t "pytest" -r 314 
+2022-11-16 14:48:03,807: Running clean trial
+============================================== test session starts ===============================================
+platform darwin -- Python 3.10.8, pytest-7.2.0, pluggy-1.0.0 -- /opt/homebrew/opt/python@3.10/bin/python3.10
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase('/Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial/.hypothesis/examples')
+rootdir: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial, configfile: pytest.ini
+plugins: hypothesis-6.56.4, cov-4.0.0, anyio-3.6.2
+collected 2 items                                                                                                
+
+example/test_ab.py::test_add_five PASSED                                                                   [ 50%]
+example/test_ab.py::test_is_match PASSED                                                                   [100%]
+
+---------- coverage: platform darwin, python 3.10.8-final-0 ----------
+Name                 Stmts   Miss  Cover
+----------------------------------------
+example/a.py             5      1    80%
+example/b.py             3      0   100%
+example/test_ab.py       6      0   100%
+----------------------------------------
+TOTAL                   14      1    93%
+
+
+=============================================== 2 passed in 0.14s ================================================
+2022-11-16 14:48:04,352: 2 mutation targets found in example/a.py AST.
+2022-11-16 14:48:04,352: 1 mutation targets found in example/b.py AST.
+2022-11-16 14:48:04,352: Setting random.seed to: 314
+2022-11-16 14:48:04,354: Total sample space size: 2
+2022-11-16 14:48:04,354: 10 exceeds sample space, using full sample: 2.
+2022-11-16 14:48:04,354: Starting individual mutation trials!
+2022-11-16 14:48:04,354: Running serial (single processor) dispatch mode.
+2022-11-16 14:48:04,354: Current target location: a.py, LocIndex(ast_class='BinOp', lineno=6, col_offset=11, op_type=<class 'ast.Add'>, end_lineno=6, end_col_offset=16)
+2022-11-16 14:48:04,833: Result: Detected at example/a.py: (6, 11)
+2022-11-16 14:48:05,275: Result: Detected at example/a.py: (6, 11)
+2022-11-16 14:48:05,705: Result: Survived at example/a.py: (6, 11)
+2022-11-16 14:48:05,705: Break on survival: stopping further mutations at location.
+2022-11-16 14:48:05,705: Current target location: b.py, LocIndex(ast_class='CompareIs', lineno=6, col_offset=11, op_type=<class 'ast.Is'>, end_lineno=6, end_col_offset=17)
+2022-11-16 14:48:06,168: Result: Detected at example/b.py: (6, 11)
+2022-11-16 14:48:06,169: Running clean trial
+============================================== test session starts ===============================================
+platform darwin -- Python 3.10.8, pytest-7.2.0, pluggy-1.0.0 -- /opt/homebrew/opt/python@3.10/bin/python3.10
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase('/Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial/.hypothesis/examples')
+rootdir: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial, configfile: pytest.ini
+plugins: hypothesis-6.56.4, cov-4.0.0, anyio-3.6.2
+collected 2 items                                                                                                
+
+example/test_ab.py::test_add_five PASSED                                                                   [ 50%]
+example/test_ab.py::test_is_match PASSED                                                                   [100%]
+
+---------- coverage: platform darwin, python 3.10.8-final-0 ----------
+Name                 Stmts   Miss  Cover
+----------------------------------------
+example/a.py             5      1    80%
+example/b.py             3      0   100%
+example/test_ab.py       6      0   100%
+----------------------------------------
+TOTAL                   14      1    93%
+
+
+=============================================== 2 passed in 0.13s ================================================
+2022-11-16 14:48:06,606: CLI Report:
+
+Mutatest diagnostic summary
+===========================
+ - Source location: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial/example
+ - Test commands: ['pytest']
+ - Mode: s
+ - Excluded files: []
+ - N locations input: 10
+ - Random seed: 314
+
+Random sample details
+---------------------
+ - Total locations mutated: 2
+ - Total locations identified: 2
+ - Location sample coverage: 100.00 %
+
+
+Running time details
+--------------------
+ - Clean trial 1 run time: 0:00:00.543193
+ - Clean trial 2 run time: 0:00:00.436905
+ - Mutation trials total run time: 0:00:01.817229
+
+2022-11-16 14:48:06,606: Trial Summary Report:
+
+Overall mutation trial summary
+==============================
+ - DETECTED: 3
+ - SURVIVED: 1
+ - TOTAL RUNS: 4
+ - RUN DATETIME: 2022-11-16 14:48:06.606619
+
+2022-11-16 14:48:06,606: Detected mutations:
+
+DETECTED
+--------
+ - example/a.py: (l: 6, c: 11) - mutation from <class 'ast.Add'> to <class 'ast.Sub'>
+ - example/a.py: (l: 6, c: 11) - mutation from <class 'ast.Add'> to <class 'ast.Mod'>
+ - example/b.py: (l: 6, c: 11) - mutation from <class 'ast.Is'> to <class 'ast.IsNot'>
+
+2022-11-16 14:48:06,606: Timedout mutations:
+
+2022-11-16 14:48:06,606: Surviving mutations:
+
+SURVIVED
+--------
+ - example/a.py: (l: 6, c: 11) - mutation from <class 'ast.Add'> to <class 'ast.Mult'>
+
+alduck@Alejas-MacBook-Air api_tutorial % clear
+
+alduck@Alejas-MacBook-Air api_tutorial % mutatest -s example/ -t "pytest" -r 314
+2022-11-16 14:49:04,106: Running clean trial
+============================================== test session starts ===============================================
+platform darwin -- Python 3.10.8, pytest-7.2.0, pluggy-1.0.0 -- /opt/homebrew/opt/python@3.10/bin/python3.10
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase('/Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial/.hypothesis/examples')
+rootdir: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial, configfile: pytest.ini
+plugins: hypothesis-6.56.4, cov-4.0.0, anyio-3.6.2
+collected 2 items                                                                                                
+
+example/test_ab.py::test_add_five PASSED                                                                   [ 50%]
+example/test_ab.py::test_is_match PASSED                                                                   [100%]
+
+---------- coverage: platform darwin, python 3.10.8-final-0 ----------
+Name                 Stmts   Miss  Cover
+----------------------------------------
+example/a.py             5      1    80%
+example/b.py             3      0   100%
+example/test_ab.py       6      0   100%
+----------------------------------------
+TOTAL                   14      1    93%
+
+
+=============================================== 2 passed in 0.13s ================================================
+2022-11-16 14:49:04,572: 2 mutation targets found in example/a.py AST.
+2022-11-16 14:49:04,572: 1 mutation targets found in example/b.py AST.
+2022-11-16 14:49:04,573: Setting random.seed to: 314
+2022-11-16 14:49:04,574: Total sample space size: 2
+2022-11-16 14:49:04,575: 10 exceeds sample space, using full sample: 2.
+2022-11-16 14:49:04,575: Starting individual mutation trials!
+2022-11-16 14:49:04,575: Running serial (single processor) dispatch mode.
+2022-11-16 14:49:04,575: Current target location: a.py, LocIndex(ast_class='BinOp', lineno=6, col_offset=11, op_type=<class 'ast.Add'>, end_lineno=6, end_col_offset=16)
+2022-11-16 14:49:05,064: Result: Detected at example/a.py: (6, 11)
+2022-11-16 14:49:05,511: Result: Detected at example/a.py: (6, 11)
+2022-11-16 14:49:05,939: Result: Survived at example/a.py: (6, 11)
+2022-11-16 14:49:05,939: Break on survival: stopping further mutations at location.
+2022-11-16 14:49:05,939: Current target location: b.py, LocIndex(ast_class='CompareIs', lineno=6, col_offset=11, op_type=<class 'ast.Is'>, end_lineno=6, end_col_offset=17)
+2022-11-16 14:49:06,381: Result: Detected at example/b.py: (6, 11)
+2022-11-16 14:49:06,382: Running clean trial
+============================================== test session starts ===============================================
+platform darwin -- Python 3.10.8, pytest-7.2.0, pluggy-1.0.0 -- /opt/homebrew/opt/python@3.10/bin/python3.10
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase('/Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial/.hypothesis/examples')
+rootdir: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial, configfile: pytest.ini
+plugins: hypothesis-6.56.4, cov-4.0.0, anyio-3.6.2
+collected 2 items                                                                                                
+
+example/test_ab.py::test_add_five PASSED                                                                   [ 50%]
+example/test_ab.py::test_is_match PASSED                                                                   [100%]
+
+---------- coverage: platform darwin, python 3.10.8-final-0 ----------
+Name                 Stmts   Miss  Cover
+----------------------------------------
+example/a.py             5      1    80%
+example/b.py             3      0   100%
+example/test_ab.py       6      0   100%
+----------------------------------------
+TOTAL                   14      1    93%
+
+
+=============================================== 2 passed in 0.13s ================================================
+2022-11-16 14:49:06,810: CLI Report:
+
+Mutatest diagnostic summary
+===========================
+ - Source location: /Users/alduck/Documents/GitHub/mutatest/docs/api_tutorial/example
+ - Test commands: ['pytest']
+ - Mode: s
+ - Excluded files: []
+ - N locations input: 10
+ - Random seed: 314
+
+Random sample details
+---------------------
+ - Total locations mutated: 2
+ - Total locations identified: 2
+ - Location sample coverage: 100.00 %
+
+
+Running time details
+--------------------
+ - Clean trial 1 run time: 0:00:00.464344
+ - Clean trial 2 run time: 0:00:00.427155
+ - Mutation trials total run time: 0:00:01.810715
+
+2022-11-16 14:49:06,810: Trial Summary Report:
+
+Overall mutation trial summary
+==============================
+ - DETECTED: 3
+ - SURVIVED: 1
+ - TOTAL RUNS: 4
+ - RUN DATETIME: 2022-11-16 14:49:06.810470
+
+2022-11-16 14:49:06,810: Detected mutations:
+
+DETECTED
+--------
+ - example/a.py: (l: 6, c: 11) - mutation from <class 'ast.Add'> to <class 'ast.Sub'>
+ - example/a.py: (l: 6, c: 11) - mutation from <class 'ast.Add'> to <class 'ast.Mod'>
+ - example/b.py: (l: 6, c: 11) - mutation from <class 'ast.Is'> to <class 'ast.IsNot'>
+
+2022-11-16 14:49:06,810: Timedout mutations:
+
+2022-11-16 14:49:06,810: Surviving mutations:
+
+SURVIVED
+--------
+ - example/a.py: (l: 6, c: 11) - mutation from <class 'ast.Add'> to <class 'ast.Mult'>
+
+alduck@Alejas-MacBook-Air api_tutorial % exec(mutant.mutant_code)                                       
+zsh: number expected
+alduck@Alejas-MacBook-Air api_tutorial % exec(mutant.mutant_code)
